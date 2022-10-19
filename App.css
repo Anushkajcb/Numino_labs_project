@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+  background-color: #e7e8ea;
+  color: rgb(241, 30, 30);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  text-align: left;
+}
+
+.form input, .form button{
+  padding: 1em;
+  font-size: 16px;
+  margin: 0.4em;
+}
+
+
+.card {
+  width: 300px;
+  /* height: 180px; */
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 20px;
+  background-color: #060404;
+  color: rgb(241, 234, 234);
+}
+
+.card-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+
+#updateInput {
+  width: 130px;
+  height: 20px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.card button, .card input {
+  padding: 0.4em;
+  font-size: 16px;
+  border: none;
+}
+
+.card input{
+  background-color: #afafaf;
+  color: rgb(255, 255, 255);
+}
+
+.card button{
+  background-color: #f4f80d;
+  color: white;
+  cursor: pointer;
+  margin: 0 0.4em;
+  border-radius: 4px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+
+}
+
+.container table tr td, .container table tr th
+{
+  padding: 1em 2em;
+  background-color: rgb(31, 217, 237);
+  color: #212121;
+  text-align: left;
+}
+
+.container table tr th{
+  background-color: rgb(18, 236, 236);
+  color: white;
+}
+
+.input-cont{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 0.4em;
+}
+
+.input-cont input {
+  margin: 0.4em;
+  padding: 0.4em;
+  /* width: 250px; */
+
+}
+
+.input-cont button{
+  margin: 0.4em;
+  /* width: 260px; */
+
+}
+
+.input-cont button:hover{
+  background-color:#1f1515;
+  color: rgb(223, 206, 206);
+}
+
+.card h1 {
+  font-size: 25px;
+  color: white;
+
+}
+
